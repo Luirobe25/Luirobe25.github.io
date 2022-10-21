@@ -40,7 +40,7 @@ function deleteProduct(e) {
         
         countProduct--;
     }
-    //FIX: El contador se quedaba con "1" aunque ubiera 0 productos
+
     if (buyThings.length === 0) {
         priceTotal.innerHTML = 0;
         amountProduct.innerHTML = 0;
@@ -76,7 +76,7 @@ function readTheContent(product){
         countProduct++;
     }
     loadHtml();
-    //console.log(infoProduct);
+
 }
 
 function loadHtml(){
